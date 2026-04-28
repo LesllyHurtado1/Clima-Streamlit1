@@ -16,6 +16,8 @@ Los datos representan comportamientos realistas, incluyendo:
 
 Aunque los datos son sintéticos, están construidos de manera que imitan patrones reales, como ciclos estacionales y tendencias globales, lo que permite realizar análisis significativos sin necesidad de datos sensibles reales.
 
+* URL : https://www.kaggle.com/datasets/emirhanakku/climate-and-energy-consumption-dataset-20202024/code
+
 ##  Visualizaciones incluidas
 El proyecto contiene las siguientes gráficas:
 
@@ -45,7 +47,7 @@ El objetivo principal es observar patrones y comportamientos en los datos, como:
 * Posibles relaciones entre 
 
 
-## Conclusiones
+## Hallazgos
 
 * La temperatura sigue un patrón muy claro , ya que a lo largo del tiempo, la temperatura sube y baja de forma repetitiva. Es fácil notar que hay épocas más cálidas y otras más frías cada año, lo que muestra que el comportamiento del clima es bastante constante.
 * Los países contaminan casi igual aunque hay países que están un poco más arriba o abajo, en general todos tienen niveles de emisiones de CO₂ muy parecidos. No hay diferencias muy grandes entre ellos.
@@ -53,6 +55,32 @@ El objetivo principal es observar patrones y comportamientos en los datos, como:
 * Las energías renovables están parejas, os países que más usan energías renovables tienen porcentajes muy similares. No hay uno que destaque muchísimo, sino que todos están más o menos en el mismo nivel.
 * A mayor consumo, más contaminación, en la grafica se ve claramente que cuando aumenta el consumo de energía, también aumentan las emisiones de CO₂. Es una relación bastante directa.
 * Las energías renovables aún no marcan gran diferencia aunque se usan energías renovables, no se nota una reducción clara en las emisiones. Esto puede significar que todavía no se usan lo suficiente como para generar un cambio fuerte.
+
+## Tecnologías Utilizadas
+* Framework: Streamlit
+* Lenguaje: Python
+* Bibliotecas:
+* pandas
+* numpy
+* matplotlib
+
+## Instalación y Ejecución Local
+
+1. **Clonar el repositorio*  
+   git https://github.com/LesllyHurtado1/Clima-Streamlit1
+   cd clima-streamlit1
+
+2. **Crear entorno virtual**
+   python -m venv venv
+   venv\Scripts\activate
+
+4. **Instalar dependencias**  
+   pip install -r requirements.txt
+
+5. **Ejecutar la aplicación**  
+   streamlit run app.py
+   
+## 
 
 
 ## Realizado por :
